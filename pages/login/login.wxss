@@ -1,0 +1,89 @@
+/* pages/login/login.wxss */
+.content {
+  min-height: 100%;
+}
+.login {
+  display: block;
+  margin:auto;
+  margin-top:10px;
+}
+
+.welcome{
+  margin:auto;  
+  margin-top: 37px;
+  text-align: center;
+}
+.welcome image {
+  width:375rpx;
+  height:32rpx;
+}
+
+.phone {
+  width:315px;
+  height:44px;
+  /* line-height: 44px; */
+  margin:auto;
+  margin-top: 21px;
+  font-size: 16px;
+  background: #F5F5F5;
+  color: #1A8AFA;
+}
+ 
+.front {
+  height:44px;
+  line-height: 44px;
+  display: inline-block;
+  text-align: left;
+  float: left;
+  padding-left: 14px;
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+}
+.number {
+  height:44px;
+  display: inline-block;
+  line-height: 44px;
+  padding-left: 7px;
+  color: #333;
+}
+
+
+.code {
+  width:315px;
+  height:44px;
+  /* line-height: 44px; */
+  margin:auto;
+  margin-top: 21px;
+  font-size: 16px;
+  background: #F5F5F5;
+  color: #1A8AFA;
+  text-align: center;
+}
+ 
+.codeNumber {
+  height:44px;
+  line-height: 44px;
+  display: inline-block;
+  text-align: left;
+  float: left;
+  padding-left: 14px;
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+  color: #333;
+}
+.getCode {
+  height:44px;
+  display: inline-block;
+  line-height: 44px;
+  /* padding-left: 7px; */
+  
+}
+
+.submit {
+  width:315px;
+  height: 44px;
+  background: #1A8AFA;
+  color: #fff;
+  margin-top: 25px;
+  border-radius: 1px;
+}

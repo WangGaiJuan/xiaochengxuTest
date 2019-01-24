@@ -1,0 +1,9 @@
+<template name='future-item'>
+  <view class='future-item'>
+    <view>日期：{{item.date}}</view>
+    <view>天气：{{item.type}}</view>
+    <view>风向/风速：{{item.fengxiang}}/{{item.fengli}}</view>
+    <view>最低气温：{{item.low}}</view>
+    <view>最高气温：{{item.high}}</view>
+  </view>
+</template>

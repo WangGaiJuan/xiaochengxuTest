@@ -1,0 +1,28 @@
+/* pages/yellowPic/yellowPic.wxss */
+page {
+  background-color: rgb(239, 239, 244);
+}
+.content {
+  min-height: 100%;
+  margin:0rpx;
+  padding:0rpx;
+}
+
+.yellowDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+}
+.singlePic {
+  width: 33%;
+  overflow: hidden;
+  margin-top:20rpx;
+}
+
+.singlePic image {
+  border-right: 1rpx solid ccc;
+  border-bottom: 1rpx solid ccc;
+}
+
+

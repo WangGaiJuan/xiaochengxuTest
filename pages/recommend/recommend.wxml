@@ -1,0 +1,6 @@
+<!--pages/recommend/recommend.wxml-->
+<view class='content'>
+  <!-- 模板的使用 -->
+  <import src="../template/movieTpl" />
+  <template is="movie" data="{{movies}}" />
+</view>

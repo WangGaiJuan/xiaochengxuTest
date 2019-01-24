@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/clock/clock",
+    "pages/cc/cc",
+    
+    "pages/workList/workList",
+    "pages/login/login",
+    "pages/vip/vip",
+    "pages/yellowPic/yellowPic",
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/main/main",
+    "pages/logs/logs",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1A8AFA",
+    "navigationBarTitleText": "我打经纪人",
+    "navigationBarTextStyle": "#ffffff"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#0078E4",
+    "list": [
+      {
+        "selectedIconPath": "pages/assets/img/icon_selected.png",
+        "iconPath": "pages/assets/img/icon_company_unselected.png",
+        "pagePath": "pages/workList/workList",
+        "text": "企业"
+      },
+      {
+        "selectedIconPath": "pages/assets/img/icon.png",
+        "iconPath": "pages/assets/img/icon_unselected.png",
+        "pagePath": "pages/vip/vip",
+        "text": "会员宝宝"
+      }
+    ]
+  },
+  "enablePullDownRefresh": true
+}

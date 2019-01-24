@@ -1,0 +1,32 @@
+/* pages/detail/detail.wxss */
+
+/* 引用 */
+@import "../movie/movie.wxss";
+
+.hr {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  opacity: 0.2;
+}
+
+.detail {
+  padding-left: 20px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.casts {
+  display: flex;
+  align-items: center;
+}
+
+.casts image {
+  flex-direction: row;
+  width: 180rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+}

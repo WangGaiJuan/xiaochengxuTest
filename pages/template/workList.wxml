@@ -1,0 +1,29 @@
+<template name="workList">
+  <checkbox-group bindchange="checkboxChange" >
+    <label class="checkbox" wx:for="{{workList}}" wx:key="index">
+      <checkbox class="check" value="{{item.id}}"/>
+      <view class="left">
+        <view class="img">
+          <image src="{{item.image}}" mode='aspectFit'></image>
+        </view>
+        <view class="number">{{item.number}}人</view>
+      </view>
+      <view class="borderLine"></view>
+      <view class="middle">
+        <view class="price">{{item.priceArea}}元</view>
+        <view class="lineRequest">
+          <view class="request" wx:for="{{item.text}}" wx:key="index">
+            <text>{{item}}</text>
+          </view>
+        </view> 
+
+        <view class="company">{{item.companyName}}</view>
+      </view>
+      <view class="right">
+        <view class="subsidy">补贴</view>
+        <view class="money">{{item.subsidy}}元</view>
+      </view>
+
+    </label>
+  </checkbox-group>
+</template>

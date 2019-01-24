@@ -1,0 +1,11 @@
+<!--pages/search/search.wxml-->
+<view class='content'>
+  <view class='search'>
+    <input class='input' bindinput='bindKeyInput' placeholder='请输入电影名称或其他关键字' />
+    <button bindtap='search' hover-class='btnClick'>查询</button>
+  </view>
+  <text class='inputShow'>你要搜索：{{inputVal}}</text>
+  <!-- 模板的使用 -->
+  <import src="../template/movieTpl" />
+  <template is="movie" data="{{movies}}" />
+</view>

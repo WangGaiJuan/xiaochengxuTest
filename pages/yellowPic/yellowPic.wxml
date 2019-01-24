@@ -1,0 +1,5 @@
+<!--pages/yellowPic/yellowPic.wxml-->
+<view class="content">
+  <import src="../template/yellowPic" />
+  <template is="yellow" data="{{yellowList}}" />
+</view>

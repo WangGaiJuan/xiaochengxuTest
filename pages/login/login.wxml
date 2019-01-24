@@ -1,0 +1,17 @@
+<!--pages/login/login.wxml-->
+<view class="content">
+  <image class="login" wx:if="{{visible}}" src="../common/images/loginBg.png"></image>
+  <view class="welcome">
+    <image src="{{image}}" ></image>
+  </view>
+
+  <view class ="phone">
+    <view class="front">+86</view>
+    <input class ="number" bindtap= "hideImage" bindinput='setphone' type='number' placeholder='请输入手机号' />
+  </view>
+  <view class ="code">
+    <input class ="codeNumber" type='number' bindinput='setCode' disabled='{{editCode}}' placeholder='请输入验证码'/>
+    <view class="getCode" bindtap="getCode">{{btntext}}</view>
+  </view>
+  <button class="submit" style="opacity:{{opacity}}" bindtap="submit">确认绑定</button>
+</view>     

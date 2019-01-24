@@ -1,0 +1,4 @@
+/* pages/recommend/recommend.wxss */
+
+/* 引用 */
+@import "../movie/movie.wxss"

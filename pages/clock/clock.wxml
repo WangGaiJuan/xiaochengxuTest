@@ -1,0 +1,7 @@
+<!--pages/clock/clock.wxml-->
+ <view class="title"><text>时钟</text></view>
+<view class="box">
+  <view class="content">
+    <canvas canvas-id="myCanvas" class="canvas"></canvas>
+  </view>
+</view>

@@ -1,0 +1,177 @@
+/* pages/workList/workList.wxss */
+.content {
+  background-color: rgb(239,239,244);
+  min-height: 100%;
+  margin:0rpx;
+  padding:0rpx;
+  padding-top: 30rpx;
+}
+
+.checkbox{
+  height:170rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30rpx;
+  background: #fff;
+  padding-top:20rpx;
+  padding-bottom: 20rpx;
+}
+
+.check {
+  line-height: 160rpx;
+  margin-left:20rpx;
+}
+
+checkbox .wx-checkbox-input {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+checkbox .wx-checkbox-input{
+  border: 1rpx solid #ccc;
+}
+
+
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked:before{
+  color:#0078E4;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+  border: 1rpx solid #0078E4;
+
+}
+
+.left {
+  width:150rpx;
+  height:160rpx;
+  padding-left:15rpx;
+  padding-right:20rpx;
+  position: relative;
+}
+
+.img{
+  width: 150rpx;
+  height:150rpx;
+  border: 1px solid #DBF7FF;
+  border-radius: 200rpx;
+  text-align: center;
+  overflow: hidden;
+}
+
+.img image{
+  width: 110rpx;
+  height:110rpx;
+  padding-top:10rpx;
+}
+
+.number {
+  width:150rpx;
+  height:45rpx;
+  line-height: 45rpx;
+  background: #DBF7FF;
+  font-size: 28rpx;
+  position: relative;
+  top:-40rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  color:#0078E4;
+} 
+
+.borderLine{
+  /* width:1rpx; */
+  height:120rpx;
+  border-left: 1rpx solid #ccc;
+  margin-top: 20rpx;
+}
+
+.middle {
+  width:410rpx;
+  padding-top:10rpx;
+  padding-left: 30rpx;
+}
+
+.price{
+  color: #F85578;
+  font-size: 34rpx;
+}
+
+.lineRequest {
+  height:50rpx;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+
+.request {
+  color: #0078E4;
+  font-size: 24rpx;
+  background: #C4DBF9;
+  opacity: 0.5;
+  float: left;
+  margin-top:15rpx;
+  margin-right:10rpx;
+  text-align:center;
+  padding-left: 5rpx;
+  padding-right: 5rpx;
+  border: 1rpx solid #ccc;
+}
+.company {
+  clear: both;
+  color: #808080;
+  font-size: 28rpx;
+  padding-top:15rpx;
+}
+
+.right {
+  width:180rpx;
+  padding-top:10rpx;
+  margin-right: 10rpx;
+}
+
+.subsidy {
+  height:40rpx;
+  line-height: 40rpx;
+  background: #1E87FF;
+  text-align: center;
+  font-size: 25rpx;
+  color:#fff;
+}
+.money {
+  color:#F85578;
+  font-size: 28rpx;
+  border: 1rpx solid #1E87FF;
+  text-align: center;
+  height:60rpx;
+  line-height: 60rpx;
+}
+
+.btn {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 130rpx;
+  padding-top: 20rpx;
+  background-color: #1E87FF;
+  color:#fff;
+  font-size: 21rpx;
+  position: fixed;
+  right: 15rpx;
+  bottom: 20rpx;
+  overflow: hidden;
+  white-space:nowrap;
+}
+
+.btn view{
+  height: 24rpx;
+  line-height: 24rpx;
+}
+
+.share{
+  position: fixed;
+  bottom: 100rpx;
+  border-radius: 200rpx;
+  font-size:26rpx;
+  border: none;
+  background: #0078E4;
+  color: #fff;
+  margin-left: 120rpx;
+}

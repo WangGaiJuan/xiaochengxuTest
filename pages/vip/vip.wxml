@@ -1,0 +1,8 @@
+<!--pages/vip/vip.wxml-->
+<view class="content">
+  <view class="vip">
+    <image src="{{vipImage}}" mode="widthFix"></image>
+  </view>
+  <import src="../template/vip" />
+  <template is="vip" data="{{vip, picNone}}" />
+</view>

@@ -1,0 +1,7 @@
+<template name="yellow">
+  <view class="yellowDiv">
+    <view class='singlePic' wx:for="{{yellowList}}" wx:key="index">
+      <image src="{{item}}" data-src='{{item}}' data-list='{{yellowList}}' wx:for-item="{{item}}" bindtap='yulan' mode='widthFix' style='width: 100%'></image>
+    </view>
+  </view>
+</template>

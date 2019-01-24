@@ -1,0 +1,4 @@
+<!--pages/cc/cc.wxml-->
+<view class="container">
+<canvas canvas-id="clock"/>
+</view>

@@ -1,0 +1,9 @@
+<view class='content'>
+  <import src="../template/workList" />
+  <template is="workList" data="{{workList}}"></template>
+  <button class="btn" wx:if="{{visible}}" bindtap='makeYellowPic'><text>一键生成</text><view>({{num}})</view></button>
+  <view>
+    <button class="share" open-type='share'>分享到群</button>
+    <button class="share" open-type='share'>分享到朋友圈</button>
+  </view>
+</view>
